@@ -10,4 +10,5 @@ exports.answer = function(req, res){
   }else{
     res.render('quizes/answer',{respuesta: 'No es correcto'});
   }
+
 };
